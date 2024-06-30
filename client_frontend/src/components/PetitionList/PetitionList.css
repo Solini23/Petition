@@ -1,0 +1,18 @@
+.list-group-item-hover:hover {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.petition-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.petition-author,
+.petition-signatures,
+.petition-expiration {
+  margin-right: 15px;
+}

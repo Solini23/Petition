@@ -1,0 +1,70 @@
+.petitions-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.petitions-container .flex-grow-1 {
+  flex-grow: 1;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.petitions-container .card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin-bottom: 1rem;
+}
+
+.petitions-container .card:hover {
+  transform: translateY(-5px);
+}
+
+.list-item-card {
+  transition: transform 0.2s;
+}
+
+.list-item-card:hover {
+  transform: translateY(-2px);
+}
+
+.petitions-container {
+  margin-top: 20px;
+}
+
+.petitions-container .petition-card {
+  position: relative;
+}
+
+.petitions-container .petition-actions {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.petitions-container .petition-icon {
+  cursor: pointer;
+  color: #4584c8;
+}
+
+.petitions-container .petition-icon:hover {
+  color: #0056b3;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
